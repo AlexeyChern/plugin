@@ -8,11 +8,10 @@ public class act1 extends AnAction {
 
         }
 
-
     @Override
     public void actionPerformed(AnActionEvent e) {
         // TODO: insert action logic here
-        form1 frm = new form1(e.getProject(), true);
+        form2 frm = new form2(e.getProject(), true);
         frm.show();
     }
 }

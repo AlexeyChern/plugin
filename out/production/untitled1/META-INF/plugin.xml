@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
   <name>OMGPLUGIN</name>
-  <version>1.6</version>
+  <version>1.20</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
   <description><![CDATA[
@@ -30,7 +30,7 @@
     <moduleService serviceInterface="kek" serviceImplementation="impl.kekImpl"/>
     <moduleService serviceInterface="down" serviceImplementation="impl.downImpl"/>
 
-      <toolWindow id="Automata Monitor" anchor="bottom" factoryClass="forms.form1"/>
+      <toolWindow id="Automata Monitor" anchor="bottom" factoryClass="forms.form2"/>
   </extensions>
 
   <actions>
